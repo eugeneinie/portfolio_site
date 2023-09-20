@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* Colour palette (#2e0269, #211361 #0c011c #371269 #6705e8) */
 
 html {
     background-color: #0c011c;
@@ -15,6 +16,23 @@ html {
     background-color: #6705e8;
     margin: 6px 2px;
     transition: 0.4s;    
+}
+
+#dropdown_menu {
+    display: none;
+    list-style-type: none;
+    width: 60px;
+    height: 100%;
+    background-color: #371269;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #6705e8;
+    overflow: hidden;
+    border-radius: 1rem 0 0 1rem;
+    transition: width .75s ease;
+}
+#dropdown_menu:hover {
+    height: 100%;
 }
 
 /* rotate 1st bar */
@@ -38,15 +56,15 @@ html {
     height: 40em;
     display: flex;
     padding: 0em 0em 0em 21em;
-    background-image: ;
+    /* background-image: ; */
 }
 
-.top_nav_btns {
+/* .top_nav_btns {
     color: #6705e8;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;   
-}
+} */
 
 .item1, .item2, .item3 {
     height: 30px;
